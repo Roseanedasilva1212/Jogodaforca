@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jogo da Forca</h1>
+  </header>
+  
+  <main>
+    <div id="hangman-container">
+      <!-- Desenho da forca -->
+      <canvas id="hangman"></canvas>
+    </div>
+    
+    <div id="word-container">
+      <!-- Palavras em progresso -->
+    </div>
+    
+    <div id="letters-container">
+      <h2>Escolha uma letra:</h2>
+      <div id="letters"></div>
+    </div>
+    
+    <button id="restart-btn">Recomeçar</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
